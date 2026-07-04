@@ -8,7 +8,7 @@ function App() {
   function Header(){
     return (
     <header className="header">
-      <img className="avatar" src="src\assets\Avatar.png"/>
+      <img className="avatar" src="/Avatar.png"/>
       <h1>Olá, eu sou Jhonnata</h1>
       <p className="subtitle">Desenvolvedor frontend em formação</p>
       <p className="headerText">Estudo HTML, CSS, JavaScript e React, construindo projetos para minha primeira oportunidade na área.</p>
@@ -29,12 +29,12 @@ function App() {
       <section className="skills">
         <h2>Tecnologias</h2>
         <div className="skillsList">
-          <p className="skillItem"><img src="src\assets\html-5-svgrepo-com.svg"/>HTML</p>
-          <p className="skillItem"><img src="src\assets\css-3-svgrepo-com.svg"/>CSS</p>
-          <p className="skillItem"><img src="src\assets\javascript-svgrepo-com.svg"/>JavaScript</p>
-          <p className="skillItem"><img src="src\assets\react-logo-svgrepo-com.svg"/>React</p>
-          <p className="skillItem"><img src="src\assets\git-svgrepo-com.svg"/>Git</p>
-          <p className="skillItem"><img src="src\assets\github-svgrepo-com.svg"/>Github</p>
+          <p className="skillItem"><img src="/html-5-svgrepo-com.svg"/>HTML</p>
+          <p className="skillItem"><img src="/css-3-svgrepo-com.svg"/>CSS</p>
+          <p className="skillItem"><img src="/javascript-svgrepo-com.svg"/>JavaScript</p>
+          <p className="skillItem"><img src="/react-logo-svgrepo-com.svg"/>React</p>
+          <p className="skillItem"><img src="/git-svgrepo-com.svg"/>Git</p>
+          <p className="skillItem"><img src="/github-svgrepo-com.svg"/>Github</p>
         </div>
       </section>
     )
@@ -61,12 +61,12 @@ function App() {
     return (
       <section className="timeline">
         <h2>Minha evolução</h2>
-        <span className="timelineDone"><img src="src\assets\html-5-svgrepo-com.svg"/>HTML concluído</span>
-        <span className="timelineDone"><img src="src\assets\css-3-svgrepo-com.svg"/>CSS concluído</span>
-        <span className="timelineDone"><img src="src\assets\javascript-svgrepo-com.svg"/>JavaScript concluído</span>
-        <span className="timelineActive"><img src="src\assets\react-logo-svgrepo-com.svg"/>React em andamento</span>
-        <span className="timelinePlanned"><img src="src\assets\typescript-logo-svgrepo-com.svg"/>TypeScript planejado</span>
-        <span className="timelinePlanned"><img src="src\assets\nodejs-icon-svgrepo-com.svg"/>Node.js planejado</span>
+        <span className="timelineDone"><img src="/html-5-svgrepo-com.svg"/>HTML concluído</span>
+        <span className="timelineDone"><img src="/css-3-svgrepo-com.svg"/>CSS concluído</span>
+        <span className="timelineDone"><img src="/javascript-svgrepo-com.svg"/>JavaScript concluído</span>
+        <span className="timelineActive"><img src="/react-logo-svgrepo-com.svg"/>React em andamento</span>
+        <span className="timelinePlanned"><img src="/typescript-logo-svgrepo-com.svg"/>TypeScript planejado</span>
+        <span className="timelinePlanned"><img src="/nodejs-icon-svgrepo-com.svg"/>Node.js planejado</span>
       </section>
     )
   }
@@ -74,7 +74,7 @@ function App() {
     return (
       <section className="contact">
         <h2>Contato</h2>
-        <a className="mail" target="_blank"href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvxVFZsqXKfjqdsjlfTwgjlHXQMCvkNzHlhlrFkQmltkJJvVdfZfCDSXFQhbbxhHthcQgv'> <img src="src\assets\gmail-svgrepo-com.svg"/>jhonataerick71@gmail.com</a>
+        <a className="mail" target="_blank"href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvxVFZsqXKfjqdsjlfTwgjlHXQMCvkNzHlhlrFkQmltkJJvVdfZfCDSXFQhbbxhHthcQgv'> <img src="/gmail-svgrepo-com.svg"/>jhonataerick71@gmail.com</a>
         <p>+55 68 999801377</p>
         <p>Aberto a oportunidades de estágio em desenvolvimento frontend.</p>
       </section>
